@@ -10,4 +10,18 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1 - Clone repo to your machine
+
+2 - Download Docker Desktop app - https://docs.docker.com/get-docker/
+
+3 - After restarting, it will prompt you to install a Linux Kernal update and restart again
+
+4 - Try running "docker -v" and "docker-compose -v" to verify installation
+
+5 - Open Docker Desktop
+
+6 - Open control panel and navigate to the root of the Anythink-Market-elerx project
+
+7 - Run docker-compose up in the root directory
+
+8 - Navigate to http://localhost:3000/api/ping to verify Docker is running properly
